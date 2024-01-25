@@ -48,6 +48,12 @@
     hsl(0, 0%, 25%) 0%, 
     hsla(0, 0%, 25%, 0) 50%
   );
+  
+  --border-gradient-yellow: linear-gradient(
+    to bottom right, 
+    hsla(45, 100%, 71%, 0.251) 0%, 
+    hsla(35, 100%, 68%, 0) 50%
+  );
   --text-gradient-yellow: linear-gradient(
     to right, 
     hsl(45, 100%, 72%), 
@@ -531,7 +537,7 @@ main {
 
 .service-item {
   position: relative;
-  background: var(--bg-gradient-yellow-2);
+  background: var(--border-gradient-yellow);
   padding: 20px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
