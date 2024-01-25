@@ -72,7 +72,7 @@
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(58.9, 84%, 75%);
   --vegas-gold: hsl(45, 54%, 58%);
-  --light-gray: hsl(0, 0%, 84%);
+  --light-gray: hsl(8, 5%, 78%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
@@ -352,8 +352,8 @@ main {
 }
 
 .info-content .title {
-  color: var(--white-1);
-  background: var(--onyx);
+  color: var(--onyx);
+  background: var(--orange-yellow-crayola);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
   width: max-content;
@@ -423,14 +423,14 @@ main {
 }
 
 .contact-title {
-  color: var(--light-gray-70);
+  color: var(--light-gray);
   font-size: var(--fs-8);
   text-transform: uppercase;
   margin-bottom: 2px;
 }
 
 .contact-info :is(.contact-link, time, address) {
-  color: var(--white-2);
+  color: var(--onyx);
   font-size: var(--fs-7);
 }
 
@@ -446,7 +446,7 @@ main {
 }
 
 .social-item .social-link {
-  color: var(--light-gray-70);
+  color: var(--light-gray);
   font-size: 18px;
 }
 
