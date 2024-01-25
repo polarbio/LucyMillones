@@ -65,6 +65,7 @@
   --jet: hsl(0, 0%, 22%);
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
+  --yellow-basic-1:hsl(60, 100%, 96%);
   --eerie-black-2: hsl(240, 2%, 12%);
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
@@ -173,7 +174,7 @@ body { background: var(--bg-gradient-white); }
 
 .sidebar,
 article {
-  background: var(--eerie-black-2);
+  background: var(--yellow-basic-1);
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
