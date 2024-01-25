@@ -54,7 +54,7 @@
     hsl(35, 100%, 68%)
   );
 
- --border-gradient-white: linear-gradient(
+ --bg-gradient-white: linear-gradient(
     to bottom right, 
     hsl(0, 0%, 100%) 0%, 
     hsl(0, 0%, 98%) 50%
@@ -161,7 +161,7 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var( --light-gray); }
+body { background: var(--bg-gradient-white); }
 
 
 
@@ -280,7 +280,7 @@ article.active {
 
 .content-card {
   position: relative;
-  background: var(--border-gradient-onyx);
+  background: var(--bg-gradient-white);
   padding: 15px;
   padding-top: 45px;
   border-radius: 14px;
@@ -1778,7 +1778,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   body::-webkit-scrollbar { width: 20px; }
 
-  body::-webkit-scrollbar-track { background: var(--smoky-black); }
+  body::-webkit-scrollbar-track { background: var(--white-1); }
 
   body::-webkit-scrollbar-thumb {
     border: 5px solid var(--smoky-black);
