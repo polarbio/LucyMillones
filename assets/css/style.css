@@ -54,6 +54,12 @@
     hsl(35, 100%, 68%)
   );
 
+ --border-gradient-white: linear-gradient(
+    to bottom right, 
+    hsl(0, 0%, 100%) 0%, 
+    hsl(0, 0%, 98%) 50%
+  );
+
   /* solid */
 
   --jet: hsl(0, 0%, 22%);
@@ -155,7 +161,7 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+body { background: var( --light-gray); }
 
 
 
