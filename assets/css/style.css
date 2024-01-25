@@ -72,6 +72,10 @@
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
   --yellow-basic-1:hsl(60, 100%, 96%);
+  --yellow-basic-2:hsl(58.5, 91%, 91%);
+  --yellow-basic-3:hsl(59, 86%, 86%);
+  --yellow-basic-4:hsl(58.6, 86%, 80%);
+  --yellow-basic-5:hsl(58.9, 84%, 75%);
   --eerie-black-2: hsl(240, 2%, 12%);
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
@@ -537,7 +541,7 @@ main {
 
 .service-item {
   position: relative;
-  background: var(--orange-yellow-crayola));
+  background: var(--yellow-basic-3));
   padding: 20px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
@@ -548,7 +552,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--orange-yellow-crayola);
+  background: var(--yellow-basic-3);
   border-radius: inherit;
   z-index: -1;
 }
