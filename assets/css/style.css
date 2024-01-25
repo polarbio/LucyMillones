@@ -695,7 +695,7 @@ main {
   position: absolute;
   top: 15px;
   right: 15px;
-  background: var(--bg-gradient-yellow-2);
+  background: var(--yellow-basic-3);
   border-radius: 8px;
   width: 32px;
   height: 32px;
@@ -713,7 +713,7 @@ main {
 .modal-close-btn ion-icon { --ionicon-stroke-width: 50px; }
 
 .modal-avatar-box {
-  background: var(--bg-gradient-yellow-2);
+  background: var(--yellow-basic-3);
   width: max-content;
   border-radius: 14px;
   margin-bottom: 15px;
@@ -726,7 +726,7 @@ main {
 
 .modal-content time {
   font-size: var(--fs-6);
-  color: var(--light-gray-70);
+  color: var(--light-gray);
   font-weight: var(--fw-300);
   margin-bottom: 10px;
 }
