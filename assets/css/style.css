@@ -175,7 +175,7 @@ body { background: var(--bg-gradient-white); }
 .sidebar,
 article {
   background: var(--yellow-basic-1);
-  border: 1px solid var(--jet);
+  border: 1px solid var(--bg-gradient-yellow-1);
   border-radius: 20px;
   padding: 15px;
   box-shadow: var(--shadow-1);
@@ -505,7 +505,7 @@ main {
 .about .article-title { margin-bottom: 15px; }
 
 .about-text {
-  color: var(--light-gray);
+  color: var(--onyx);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
@@ -531,7 +531,7 @@ main {
 
 .service-item {
   position: relative;
-  background: var(--border-gradient-onyx);
+  background: var(--bg-gradient-yellow-2);
   padding: 20px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
@@ -542,7 +542,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
+  background: var(--bg-gradient-yellow-1);
   border-radius: inherit;
   z-index: -1;
 }
