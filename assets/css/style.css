@@ -660,14 +660,14 @@ main {
   height: 100vh;
   background: hsl(58.5, 91%, 91%);
   opacity: 1;
-  visibility: hidden;
+  visibility: visible;
   pointer-events: none;
   z-index: 1;
   transition: var(--transition-1);
 }
 
 .overlay.active {
-  opacity: 0.8;
+  opacity: 0.9;
   visibility: visible;
   pointer-events: all;
 }
